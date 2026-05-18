@@ -8,6 +8,6 @@ Commit (button at the bottom of the in-browser editor).
 
 **Trainer note:** Write each mentor's repo URL on the whiteboard next to their name. By Day 12 you reference these URLs for grading.
 
-**Acceptance:** `https://github.com/<username>/ai-mentor-portfolio` is publicly accessible.
+**Acceptance:** `https://github.com/Vdivyajaswanthi123/ai-mentor-portfolio` is publicly accessible.
 
 ---
