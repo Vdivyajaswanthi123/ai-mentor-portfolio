@@ -9,5 +9,14 @@ Commit (button at the bottom of the in-browser editor).
 **Trainer note:** Write each mentor's repo URL on the whiteboard next to their name. By Day 12 you reference these URLs for grading.
 
 **Acceptance:** `https://github.com/Vdivyajaswanthi123/ai-mentor-portfolio` is publicly accessible.
+```markdown
+## Day 1 — Setup complete
 
+- ✅ Google AI Studio API key provisioned
+- ✅ Groq API key provisioned
+- ✅ Hello-Gemini call working — see [Day1_Setup.ipynb](Day1_Setup.ipynb)
+- 4-tool comparison matrix from Lab 1A: see screenshot below
+
+![Gemini first call](gemini_first_call.png)
+```
 ---
