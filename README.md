@@ -56,5 +56,23 @@ Public portfolio of 12-day AI Trainer Workshop. By Day 12: 6 daily notebooks + c
 - This is an AI-assisted prototype.
 - To productionise, I would add better error handling, caching, rate limits, and authentication.
 - Continue.dev helped scaffold the UI quickly, but manual review was needed for prompt correctness and deployment fixes.
-```
+
+## Day 5 Lab 5B — Hugging Face Pulls
+
+### Models tested
+- `facebook/bart-large-mnli` — zero-shot classification
+- `distilbert-base-uncased-finetuned-sst-2-english` — sentiment
+
+### Timing comparison
+
+| | min | avg | Notes |
+|---|-----|-----|-------|
+| API | 0.24s | 0.25s | Cold-start: 20s |
+| Local | 0.86s | 0.95s | Download: 60s on first run |
+
+### When to use each (3-line reflection)
+
+1. **API:** for low-volume, occasional calls. Avoids download. Cold-start risk on first call after idle.
+2. **Local:** for batch processing 100+ items, where you want predictable latency and don't pay per call.
+3. **Production rule of thumb:** if your usage exceeds the API free tier (~30K requests/month at HF), self-host. Otherwise API.
 ---
