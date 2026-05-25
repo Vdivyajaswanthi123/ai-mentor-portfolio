@@ -75,4 +75,13 @@ Public portfolio of 12-day AI Trainer Workshop. By Day 12: 6 daily notebooks + c
 1. **API:** for low-volume, occasional calls. Avoids download. Cold-start risk on first call after idle.
 2. **Local:** for batch processing 100+ items, where you want predictable latency and don't pay per call.
 3. **Production rule of thumb:** if your usage exceeds the API free tier (~30K requests/month at HF), self-host. Otherwise API.
+
+## Day 7 Lab 7A — ChromaDB Hello-World
+
+- Embedded 10 CSE Sem 5 paragraphs with all-MiniLM-L6-v2 (384-dim, free)
+- Indexed in persistent ChromaDB collection `hello_syllabus`
+- Ran 3 semantic queries — observed: top-1 match is relevant when query topic is in corpus, irrelevant when not
+- Plotted PCA 2D — visible OS / DBMS clusters
+
+**Reflection:** Semantic search returns nearest, not exact. RAG must enforce citations to catch out-of-corpus queries (this afternoon's Sprint 2).
 ---
