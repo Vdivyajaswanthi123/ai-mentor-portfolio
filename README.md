@@ -75,7 +75,12 @@ Public portfolio of 12-day AI Trainer Workshop. By Day 12: 6 daily notebooks + c
 1. **API:** for low-volume, occasional calls. Avoids download. Cold-start risk on first call after idle.
 2. **Local:** for batch processing 100+ items, where you want predictable latency and don't pay per call.
 3. **Production rule of thumb:** if your usage exceeds the API free tier (~30K requests/month at HF), self-host. Otherwise API.
+   
+## Day 6 Lab 6A — unexpected success
 
+1. **Executed Successfully** 
+   Executed without getting eny errors and got unexpected success with success object.
+   
 ## Day 7 Lab 7A — ChromaDB Hello-World
 
 - Embedded 10 CSE Sem 5 paragraphs with all-MiniLM-L6-v2 (384-dim, free)
