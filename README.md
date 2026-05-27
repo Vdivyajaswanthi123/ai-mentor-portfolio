@@ -120,4 +120,14 @@ Public portfolio of 12-day AI Trainer Workshop. By Day 12: 6 daily notebooks + c
 | 3 | Which JDs require Python? | "Per jd_3 (Accenture)..., per jd_5 (Cognizant)..." | jd_3, jd_5, jd_9 |
 | 4 | Top 3 skills across JDs? | "Java, Python, SQL appear in 7+ of 10 JDs..." | jd_0, jd_1, jd_2 |
 | 5 | What is TCS Codevita? | "I do not know — not in corpus." | (none) |
+
+## Day 9 Lab 9A — Trace as a story
+
+1. **Human asked:** "What is TCS's 2026 hiring quota?"
+2. **Agent thought:** "I don't know recent figures. I should search."
+3. **Agent acted:** called `web_search('TCS 2026 hiring quota')`.
+4. **Agent observed:** got back search results mentioning 40-50K range.
+5. **Agent answered:** synthesised "Based on search results, TCS plans to hire 40-50K freshers..."
+
+This is the ReAct loop. Every agent we build follows this pattern.
 ---
